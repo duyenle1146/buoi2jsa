@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <script>
+        function tinhTong() {
+            let n = document.getElementById("so1");
+            let m = document.getElementById("so2");
+            var d = Number(n.value) + Number(m.value);
+            alert(d);
+        }
+    </script>
+    <body>
+        <input type="number" id="so1" placeholder="bạn hãy nhập số thứ nhất" />
+        <br />
+        <input type="number" id="so2" placeholder="bạn hãy nhập số thứ hai" />
+        <button onclick="tinhTong()">Nhập</button>
+    </body>
+</html>

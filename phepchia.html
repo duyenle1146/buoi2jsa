@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function ketQua(){
+        let h = document.getElementById("so1");
+        let k = document.getElementById("so2");
+        var g = Number(h.value) / Number(k.value);
+        alert(g);
+    }
+</script>
+<body>
+    <input type="number" id="so1" placeholder="hãy nhập số thứ nhất"><br><br>
+    <input type="number" id="so2" placeholder="hãy nhập số thư hai">
+    <button onclick="ketQua()">Nhập</button>
+</body>
+</html>
